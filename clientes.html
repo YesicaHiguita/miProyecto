@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>MisionTic 2022</title>
+
+ 
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  
+  </head>
+  <script type="text/javascript" src="myScript.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<body>  
+  
+  <!-- formulario de cliente en html y css -->  
+
+  <div class="client_form">
+
+    <div class="formulario">      
+      <h1>Clientes</h1>
+
+         
+
+            <p>
+              <label for="idCliente" class="colocar_id">Id de Cliente
+              </label>
+                <input type="number" name="introducir_id" id="idCliente">
+            </p>
+                <p>
+                  <label for="nombreCliente" class="colocar_nombre">Nombre de cliente
+                  </label>
+                    <input type="text" name="introducir_nombre" id="nombreCliente">
+                </p>
+              
+                <p>
+                  <label for="email" class="colocar_email">Correo de cliente
+                  </label>
+                    <input type="email" name="introducir_email" id="mailCliente">
+                </p>
+            
+                <p>
+                  <label for="edad" class="colocar_edad">Edad de cliente
+                  </label>
+                    <input type="number" name="introducir_edad" id="edadCliente">
+                </p>                    
+              
+                <button onclick="location.href='listaClientes.html'" name="consultar" id="consultarCliente"><p>Consultar</p></button>
+                <button onclick="guardarCliente()" name="guardar" id="guardarCliente"><p>Guardar</p></button>
+
+                         
+                 
+          
+    </div>  
+    <!--<div id="listaClientes">
+
+    </div>-->
+  </div>
+
+</body>
+</html>
+
+
