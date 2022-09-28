@@ -20,10 +20,10 @@ function leerClientes(){
 }
 
 function pintarRespuestaClientes(items){
-    let myTable ="<table border=2px>";
+    let myTable ="<table id=content-table border=2px>";
     let tipo="client";
     myTable+="<tr>";
-    myTable+="<th>NAME</th>";
+    myTable+="<th id=titulo-tabla>NOMBRE DE CLIENTE</th>";
     myTable+="</tr>";
     for(i=0;i<items.length;i++){
         myTable+="<tr>";

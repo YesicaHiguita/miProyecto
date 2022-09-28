@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de clientes</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
     <script type="text/javascript" src="myScript.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-<body onload="leerClientes()">
+<body class= "listadoCliente" onload="leerClientes()">
     <h1>Listado de clientes</h1>
-    <div id="listaClientes"></div>
+    <div class="tbody" >
+        <table  class = "content-table" id="listaClientes"></table>
+    </div>
 </body>
 </html>

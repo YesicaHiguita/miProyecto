@@ -129,3 +129,29 @@ p{
   outline:0;
   border: 1px solid #97d848;
 }
+
+#content-table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid rgb(214, 166, 214);
+  text-align: start;
+  display: block;
+  margin-left: auto;
+ margin-right: auto;
+  
+  
+}
+
+#titulo-tabla{
+  text-align: center;
+  background-color: rgb(20, 129, 180);
+}
+
+.tbody{
+  background-color: antiquewhite;
+}
+
+.listadoCliente{
+  background-color: rgba(247, 147, 222, 0.521);
+}
